@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=4 uid="uid://dxk2663jvhk4g"]
+[gd_scene load_steps=10 format=4 uid="uid://dxk2663jvhk4g"]
 
-[ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://scenes/PlayerGame.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://scenes/Player.tscn" id="1_ebmjs"]
 [ext_resource type="Texture2D" uid="uid://cge68sdx5sfau" path="res://assets/brackeys_platformer_assets/sprites/World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Tiles.png" id="2_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://bnk0bnsw5p4kc" path="res://scenes/first_enemy_test.tscn" id="3_lnu2h"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wrm1d"]
 texture = ExtResource("2_qxrlw")
@@ -801,3 +802,6 @@ position = Vector2(-19, -88)
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D2"]
 position = Vector2(0, -7)
 zoom = Vector2(4, 4)
+
+[node name="witch_enemy" parent="." instance=ExtResource("3_lnu2h")]
+position = Vector2(136, -68)
