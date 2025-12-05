@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://wr2n42q2y7uh"]
 
-[ext_resource type="Texture2D" uid="uid://cq2jkg4dwgm5g" path="res://brackeys_platformer_assets/sprites/knight.png" id="1_4flbx"]
-[ext_resource type="Script" uid="uid://dg1ilcj63lxgd" path="res://Scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://cq2jkg4dwgm5g" path="res://assets/brackeys_platformer_assets/sprites/knight.png" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://dg1ilcj63lxgd" path="res://scripts/player.gd" id="1_cvnsp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
 atlas = ExtResource("1_4flbx")

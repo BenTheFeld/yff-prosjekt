@@ -1,7 +1,7 @@
 [gd_scene load_steps=21 format=3 uid="uid://psiyjtlb6m1h"]
 
-[ext_resource type="Texture2D" uid="uid://dk6xdqxi843b" path="res://halloween_10.2022/reaper/reaper_blade_1.png" id="1_bdr4h"]
-[ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://Scripts/player_movement.gd" id="1_ia0jx"]
+[ext_resource type="Texture2D" uid="uid://dk6xdqxi843b" path="res://assets/halloween_10.2022/reaper/reaper_blade_1.png" id="1_bdr4h"]
+[ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://scripts/player_movement.gd" id="1_ia0jx"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ia0jx"]
 atlas = ExtResource("1_bdr4h")
