@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=4 uid="uid://dxk2663jvhk4g"]
 
-[ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://Scenes/PlayerGame.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://scenes/PlayerGame.tscn" id="1_ebmjs"]
 [ext_resource type="Texture2D" uid="uid://cge68sdx5sfau" path="res://brackeys_platformer_assets/sprites/World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Tiles.png" id="2_qxrlw"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wrm1d"]
