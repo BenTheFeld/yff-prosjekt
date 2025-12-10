@@ -1087,4 +1087,4 @@ visible = false
 position = Vector2(0, -69)
 
 [node name="Node2D" parent="." instance=ExtResource("3_wrm1d")]
-position = Vector2(-64, -107)
+position = Vector2(-73, -88)

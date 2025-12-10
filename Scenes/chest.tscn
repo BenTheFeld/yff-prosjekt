@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://cfmuxxfy57ma4"]
 
-[ext_resource type="Texture2D" uid="uid://p60l6i8xp6b5" path="res://Assets/Animated Chests/Chests.png" id="1_cjfl1"]
+[ext_resource type="Texture2D" uid="uid://p60l6i8xp6b5" path="res://assets/Animated Chests/Chests.png" id="1_cjfl1"]
 [ext_resource type="Script" uid="uid://cqvu60aure4yl" path="res://Scripts/chestScript.gd" id="2_bagqn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pmguq"]
@@ -122,7 +122,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cjfl1"]
-size = Vector2(26, 13)
+size = Vector2(27.5, 15)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_qhimo")
@@ -134,5 +134,5 @@ collision_layer = 3
 collision_mask = 0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(-8, 9.5)
+position = Vector2(-7.25, 8.5)
 shape = SubResource("RectangleShape2D_cjfl1")

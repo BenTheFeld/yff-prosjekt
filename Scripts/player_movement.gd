@@ -8,7 +8,10 @@ var number = 0
 
 # --- Shooting cooldown ---
 var can_shoot := true
-var shoot_cooldown := 1   # seconds between shots
+var shoot_cooldown := 1 	# seconds between shots
+
+# --- CHEST INTERACTION VARIABLES ---
+var current_interactable_chest: Area2D = null # Stores a reference to the chest the player is currently near
 
 
 func shoot():
@@ -51,6 +54,14 @@ func _physics_process(delta):
 		shoot()
 		start_shoot_cooldown()
 
+	# --- CHEST INTERACTION LOGIC (Using a separate action for clarity, e.g., "interact") ---
+	# NOTE: You must set up a separate "interact" action in Project Settings -> Input Map (e.g., 'E' key)
+	if Input.is_action_just_pressed("interact"):
+		if current_interactable_chest != null:
+			# Call the public 'open' function on the chest script
+			current_interactable_chest.open()
+
+
 	# Movement + animation
 	if direction.length() > 0:
 		last_direction = direction
@@ -58,6 +69,21 @@ func _physics_process(delta):
 	else: 
 		play_idle_animation(last_direction)
 
+
+# --- CHEST INTERACTION FUNCTIONS (Called by the Chest's Area2D script) ---
+
+# Called by the Chest script when the player enters its area
+func set_interactable_chest(chest: Area2D):
+	current_interactable_chest = chest
+	# Add UI update logic (e.g., show "Press E to open")
+
+# Called by the Chest script when the player leaves its area
+func clear_interactable_chest():
+	current_interactable_chest = null
+	# Add UI update logic (e.g., hide "Press E to open")
+
+
+# --- Existing Animation Functions ---
 
 func play_walk_animation(direction):
 	if direction.x > 0:
