@@ -1,7 +1,7 @@
 [gd_scene load_steps=15 format=4 uid="uid://dxk2663jvhk4g"]
 
 [ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://Scenes/PlayerGame.tscn" id="1_ebmjs"]
-[ext_resource type="PackedScene" uid="uid://cfmuxxfy57ma4" path="res://Scenes/chest.tscn" id="1_wrm1d"]
+[ext_resource type="PackedScene" uid="uid://wt31q8hiwkql" path="res://Scenes/chestnew.tscn" id="3_wrm1d"]
 [ext_resource type="PackedScene" uid="uid://w307dt8gg06k" path="res://Scenes/bullet.tscn" id="4_wowpa"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qxrlw"]
@@ -1086,6 +1086,5 @@ zoom = Vector2(4, 4)
 visible = false
 position = Vector2(0, -69)
 
-[node name="AnimatedSprite2D" parent="." instance=ExtResource("1_wrm1d")]
-position = Vector2(-66, -98)
-frame_progress = 0.3640558
+[node name="Node2D" parent="." instance=ExtResource("3_wrm1d")]
+position = Vector2(-64, -107)

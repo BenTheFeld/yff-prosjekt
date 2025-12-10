@@ -94,7 +94,3 @@ func play_shoot_animation(direction):
 		$AnimatedSprite2D.play("shoot_down")
 	elif direction.y < 0:
 		$AnimatedSprite2D.play("shoot_up")
-
-
-func _on_interactions_body_exited(body: Node2D) -> void:
-	pass # Replace with function body.
