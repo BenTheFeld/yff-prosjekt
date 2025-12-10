@@ -1,12 +1,13 @@
 [gd_scene load_steps=14 format=4 uid="uid://dxk2663jvhk4g"]
 
 [ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://Scenes/PlayerGame.tscn" id="1_ebmjs"]
-[ext_resource type="Texture2D" uid="uid://b4iohwool0hqs" path="res://Assets/brackeys_platformer_assets/sprites/world_tileset.png" id="2_3dryh"]
-[ext_resource type="Texture2D" uid="uid://cge68sdx5sfau" path="res://Assets/brackeys_platformer_assets/sprites/World of Solaria Demo Pack Update 04/16x16/Tilesets/New/Solaria Demo Tiles.png" id="2_qxrlw"]
 [ext_resource type="PackedScene" uid="uid://w307dt8gg06k" path="res://Scenes/bullet.tscn" id="4_wowpa"]
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qxrlw"]
+load_path = "res://.godot/imported/Solaria Demo Tiles.png-1ffd80ca225a09fbcace71c062cb6825.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wrm1d"]
-texture = ExtResource("2_qxrlw")
+texture = SubResource("CompressedTexture2D_qxrlw")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -376,8 +377,11 @@ texture = ExtResource("2_qxrlw")
 11:14/0 = 0
 12:14/0 = 0
 
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wrm1d"]
+load_path = "res://.godot/imported/world_tileset.png-f8b17cc593f443d198f49f91b4f6b3e2.ctex"
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wowpa"]
-texture = ExtResource("2_3dryh")
+texture = SubResource("CompressedTexture2D_wrm1d")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -511,7 +515,7 @@ sources/0 = SubResource("TileSetAtlasSource_wrm1d")
 sources/1 = SubResource("TileSetAtlasSource_wowpa")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qxrlw"]
-texture = ExtResource("2_qxrlw")
+texture = SubResource("CompressedTexture2D_qxrlw")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -882,7 +886,7 @@ texture = ExtResource("2_qxrlw")
 12:14/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i6g32"]
-texture = ExtResource("2_3dryh")
+texture = SubResource("CompressedTexture2D_wrm1d")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
