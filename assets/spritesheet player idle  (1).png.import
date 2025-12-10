@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnyw0t2dfpyoi"
-path="res://.godot/imported/IMG_3403 Background Removed.png-969469d407b2f48a817e20c0b31a0202.ctex"
+uid="uid://cjd4jcun5qlse"
+path="res://.godot/imported/spritesheet player idle  (1).png-a5dc177f1cb16cc071b60ac369787c0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://IMG_3403 Background Removed.png"
-dest_files=["res://.godot/imported/IMG_3403 Background Removed.png-969469d407b2f48a817e20c0b31a0202.ctex"]
+source_file="res://assets/spritesheet player idle  (1).png"
+dest_files=["res://.godot/imported/spritesheet player idle  (1).png-a5dc177f1cb16cc071b60ac369787c0b.ctex"]
 
 [params]
 
