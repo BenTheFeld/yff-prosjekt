@@ -796,11 +796,11 @@ shape = SubResource("RectangleShape2D_qxrlw")
 position = Vector2(0.25, 46)
 shape = SubResource("RectangleShape2D_wrm1d")
 
-[node name="CharacterBody2D2" parent="." instance=ExtResource("1_ebmjs")]
-position = Vector2(-19, -88)
+[node name="Player" parent="." instance=ExtResource("1_ebmjs")]
+position = Vector2(-16.906784, -85.61362)
 
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D2"]
-position = Vector2(0, -7)
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-2.093216, -9.386383)
 zoom = Vector2(4, 4)
 
 [node name="witch_enemy" parent="." instance=ExtResource("3_lnu2h")]
