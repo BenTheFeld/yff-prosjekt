@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cu2ochabfnajj"
-path="res://.godot/imported/Headless Jacko.png-4b8377854fb4cf2963003d0de3cccede.ctex"
+path="res://.godot/imported/Headless Jacko.png-b3d9da3bfac6b8bc30b6e0c701138fbc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/bonus_tyler_warren/Headless Jacko/Filtered/420 Large MV/Headless Jacko.png"
-dest_files=["res://.godot/imported/Headless Jacko.png-4b8377854fb4cf2963003d0de3cccede.ctex"]
+source_file="res://assets/halloween_10.2022/bonus_tyler_warren/Headless Jacko/Filtered/420 Large MV/Headless Jacko.png"
+dest_files=["res://.godot/imported/Headless Jacko.png-b3d9da3bfac6b8bc30b6e0c701138fbc.ctex"]
 
 [params]
 

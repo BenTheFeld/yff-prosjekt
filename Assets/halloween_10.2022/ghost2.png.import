@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ccbg3k3p34hrl"
-path="res://.godot/imported/ghost2.png-7904dcab3212fe80307630337d6dc377.ctex"
+path="res://.godot/imported/ghost2.png-5b67b068cdb83ca2c9da053fb98290f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/ghost2.png"
-dest_files=["res://.godot/imported/ghost2.png-7904dcab3212fe80307630337d6dc377.ctex"]
+source_file="res://assets/halloween_10.2022/ghost2.png"
+dest_files=["res://.godot/imported/ghost2.png-5b67b068cdb83ca2c9da053fb98290f2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://e1fsk4anw0cp"
-path="res://.godot/imported/hallowtiles_3.png-8efec3212467f11f19213c489ad7736c.ctex"
+path="res://.godot/imported/hallowtiles_3.png-041792ff12707c4a4da80e590ab57d06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/tiles/hallowtiles_3.png"
-dest_files=["res://.godot/imported/hallowtiles_3.png-8efec3212467f11f19213c489ad7736c.ctex"]
+source_file="res://assets/halloween_10.2022/tiles/hallowtiles_3.png"
+dest_files=["res://.godot/imported/hallowtiles_3.png-041792ff12707c4a4da80e590ab57d06.ctex"]
 
 [params]
 

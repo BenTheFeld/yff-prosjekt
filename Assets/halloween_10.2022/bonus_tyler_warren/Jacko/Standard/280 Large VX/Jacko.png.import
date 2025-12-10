@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bq8n6mraxrimh"
-path="res://.godot/imported/Jacko.png-9bfa136c202290a7773fb3ff7f6505ae.ctex"
+path="res://.godot/imported/Jacko.png-052066e91d9f5da07050c60063843bc8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/bonus_tyler_warren/Jacko/Standard/280 Large VX/Jacko.png"
-dest_files=["res://.godot/imported/Jacko.png-9bfa136c202290a7773fb3ff7f6505ae.ctex"]
+source_file="res://assets/halloween_10.2022/bonus_tyler_warren/Jacko/Standard/280 Large VX/Jacko.png"
+dest_files=["res://.godot/imported/Jacko.png-052066e91d9f5da07050c60063843bc8.ctex"]
 
 [params]
 

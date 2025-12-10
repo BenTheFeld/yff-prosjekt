@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://pe3kgdi18u1f"
-path="res://.godot/imported/dotd_skeletonsheet_2.png-583a4ebb7198a3b9e6fdcf7642188ab9.ctex"
+path="res://.godot/imported/dotd_skeletonsheet_2.png-c9a5eafb40eeb81fd02c8166db4754af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/day_of_the_dead/dotd_skeletonsheet_2.png"
-dest_files=["res://.godot/imported/dotd_skeletonsheet_2.png-583a4ebb7198a3b9e6fdcf7642188ab9.ctex"]
+source_file="res://assets/halloween_10.2022/day_of_the_dead/dotd_skeletonsheet_2.png"
+dest_files=["res://.godot/imported/dotd_skeletonsheet_2.png-c9a5eafb40eeb81fd02c8166db4754af.ctex"]
 
 [params]
 

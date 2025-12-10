@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpuwt5kbrbeeh"]
+
+[ext_resource type="Texture2D" uid="uid://bnyw0t2dfpyoi" path="res://assets/IMG_3403 Background Removed.png" id="1_aa2cp"]
+[ext_resource type="Script" uid="uid://c4i6tmelqryof" path="res://Scripts/items.gd" id="2_nudqs"]
+
+[node name="Items" type="Sprite2D"]
+position = Vector2(-6, -3)
+scale = Vector2(0.48000002, 0.48000002)
+texture = ExtResource("1_aa2cp")
+script = ExtResource("2_nudqs")

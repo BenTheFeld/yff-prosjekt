@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dime3bqwbi1um"
-path="res://.godot/imported/Matias.png-93700d0a455d0db8992d2f751065c857.ctex"
+path="res://.godot/imported/Matias.png-fb06c95c2d9703fb8695758fb260f9f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/reaper/Matias.png"
-dest_files=["res://.godot/imported/Matias.png-93700d0a455d0db8992d2f751065c857.ctex"]
+source_file="res://assets/halloween_10.2022/reaper/Matias.png"
+dest_files=["res://.godot/imported/Matias.png-fb06c95c2d9703fb8695758fb260f9f4.ctex"]
 
 [params]
 

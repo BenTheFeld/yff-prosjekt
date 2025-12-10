@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0hymnauieon0"
-path="res://.godot/imported/witchtiles_3.png-986042212b73981ffcde1ce87e97ad81.ctex"
+path="res://.godot/imported/witchtiles_3.png-d2f7f8be27a3c67421d1aa62864136fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/tiles/witchtiles_3.png"
-dest_files=["res://.godot/imported/witchtiles_3.png-986042212b73981ffcde1ce87e97ad81.ctex"]
+source_file="res://assets/halloween_10.2022/tiles/witchtiles_3.png"
+dest_files=["res://.godot/imported/witchtiles_3.png-d2f7f8be27a3c67421d1aa62864136fd.ctex"]
 
 [params]
 

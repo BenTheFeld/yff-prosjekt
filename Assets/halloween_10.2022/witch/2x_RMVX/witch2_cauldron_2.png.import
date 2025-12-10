@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://16ud0py16eyl"
-path="res://.godot/imported/witch2_cauldron_2.png-2297828e038ed30ac06eeab49462b250.ctex"
+path="res://.godot/imported/witch2_cauldron_2.png-4d6a3b1853eaaa601d61ca26444047b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/witch/2x_RMVX/witch2_cauldron_2.png"
-dest_files=["res://.godot/imported/witch2_cauldron_2.png-2297828e038ed30ac06eeab49462b250.ctex"]
+source_file="res://assets/halloween_10.2022/witch/2x_RMVX/witch2_cauldron_2.png"
+dest_files=["res://.godot/imported/witch2_cauldron_2.png-4d6a3b1853eaaa601d61ca26444047b1.ctex"]
 
 [params]
 
