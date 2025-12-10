@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://wt31q8hiwkql"]
-
-[ext_resource type="PackedScene" uid="uid://cfmuxxfy57ma4" path="res://Scenes/chest.tscn" id="1_fp3c7"]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="AnimatedSprite2D" parent="." instance=ExtResource("1_fp3c7")]
-frame = 4
-frame_progress = 0.52434427
