@@ -1,7 +1,7 @@
 [gd_scene load_steps=20 format=3 uid="uid://cfmuxxfy57ma4"]
 
 [ext_resource type="Texture2D" uid="uid://p60l6i8xp6b5" path="res://Assets/Animated Chests/Chests.png" id="1_cjfl1"]
-[ext_resource type="Script" uid="uid://cqvu60aure4yl" path="res://Scenes/Chest.gd" id="2_bagqn"]
+[ext_resource type="Script" uid="uid://cqvu60aure4yl" path="res://Chest.gd" id="2_bagqn"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pmguq"]
 atlas = ExtResource("1_cjfl1")
@@ -127,7 +127,7 @@ size = Vector2(26, 13)
 [node name="AnimatedSprite2D" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_qhimo")
 animation = &"chest_idle"
-frame_progress = 0.86343205
+frame_progress = 0.5729598
 script = ExtResource("2_bagqn")
 
 [node name="Area2D" type="Area2D" parent="."]
