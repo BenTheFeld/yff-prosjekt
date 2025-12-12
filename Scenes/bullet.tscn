@@ -1,26 +1,16 @@
 [gd_scene load_steps=4 format=3 uid="uid://w307dt8gg06k"]
 
-<<<<<<< Updated upstream
 [ext_resource type="Script" uid="uid://ckl6txnw0usvg" path="res://Scripts/bullet.gd" id="1_oduel"]
-[ext_resource type="Texture2D" uid="uid://dlvxp4i24qwdx" path="res://assets/Bullet (3).png" id="2_y25gk"]
-=======
-[ext_resource type="Script" uid="uid://yhi6b4lby0nr" path="res://Scripts/bullet.gd" id="1_oduel"]
 [ext_resource type="Texture2D" uid="uid://c28k0fpn07hat" path="res://assets/Bullet.png" id="2_y25gk"]
->>>>>>> Stashed changes
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_6afsh"]
+[sub_resource type="CircleShape2D" id="CircleShape2D_ycag2"]
+radius = 5.0
 
-[node name="Bullet" type="Area2D"]
+[node name="Area2D" type="Area2D"]
 script = ExtResource("1_oduel")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_6afsh")
+shape = SubResource("CircleShape2D_ycag2")
 
-<<<<<<< Updated upstream
-[node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(1.9073486e-06, 0)
-scale = Vector2(2.4374998, 2.3173034)
-=======
 [node name="Bullet2" type="Sprite2D" parent="."]
->>>>>>> Stashed changes
 texture = ExtResource("2_y25gk")
