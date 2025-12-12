@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< Updated upstream:assets/spritesheet player idle  (1).png.import
-uid="uid://bu72d0are0w"
+uid="uid://cbar4gkc18wp"
 path="res://.godot/imported/spritesheet player idle  (1).png-a5dc177f1cb16cc071b60ac369787c0b.ctex"
-=======
-uid="uid://diom7dqwkdl73"
-path="res://.godot/imported/Chests_Snow.png-8e05be2d97fc4c0d17ced45a5d60cd9b.ctex"
->>>>>>> Stashed changes:Assets/Animated Chests/Chests_Snow.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< Updated upstream:assets/spritesheet player idle  (1).png.import
 source_file="res://assets/spritesheet player idle  (1).png"
 dest_files=["res://.godot/imported/spritesheet player idle  (1).png-a5dc177f1cb16cc071b60ac369787c0b.ctex"]
-=======
-source_file="res://assets/Animated Chests/Chests_Snow.png"
-dest_files=["res://.godot/imported/Chests_Snow.png-8e05be2d97fc4c0d17ced45a5d60cd9b.ctex"]
->>>>>>> Stashed changes:Assets/Animated Chests/Chests_Snow.png.import
 
 [params]
 

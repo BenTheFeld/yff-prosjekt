@@ -2,26 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< Updated upstream:assets/Bullet (3).png.import
-uid="uid://b2i3pam23j0rd"
+uid="uid://cm4t01dpuijod"
 path="res://.godot/imported/Bullet (3).png-1d5d3d08fa0aebed66be4555b7b555b2.ctex"
-=======
-uid="uid://b0qsag7dwvlgf"
-path="res://.godot/imported/Bullet (2).png-615f69e22ef2beeba023b622804b1ca3.ctex"
->>>>>>> Stashed changes:Assets/Bullet (2).png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<< Updated upstream:assets/Bullet (3).png.import
 source_file="res://assets/Bullet (3).png"
 dest_files=["res://.godot/imported/Bullet (3).png-1d5d3d08fa0aebed66be4555b7b555b2.ctex"]
-=======
-source_file="res://assets/Bullet (2).png"
-dest_files=["res://.godot/imported/Bullet (2).png-615f69e22ef2beeba023b622804b1ca3.ctex"]
->>>>>>> Stashed changes:Assets/Bullet (2).png.import
 
 [params]
 
