@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2i3pam23j0rd"
-path="res://.godot/imported/Bullet (3).png-1d5d3d08fa0aebed66be4555b7b555b2.ctex"
+uid="uid://dxp6r55hucyx0"
+path="res://.godot/imported/spritesheet player run .png-50082ae0e4b3aacfb4e683b235b4581a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Bullet (3).png"
-dest_files=["res://.godot/imported/Bullet (3).png-1d5d3d08fa0aebed66be4555b7b555b2.ctex"]
+source_file="res://assets/halloween_10.2022/spritesheet player run .png"
+dest_files=["res://.godot/imported/spritesheet player run .png-50082ae0e4b3aacfb4e683b235b4581a.ctex"]
 
 [params]
 
