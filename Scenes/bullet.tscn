@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=3 uid="uid://w307dt8gg06k"]
 
 [ext_resource type="Script" uid="uid://ckl6txnw0usvg" path="res://Scripts/bullet.gd" id="1_oduel"]
-[ext_resource type="Texture2D" uid="uid://dlvxp4i24qwdx" path="res://Scripts/Bullet.png" id="2_oduel"]
-[ext_resource type="Texture2D" uid="uid://bnyw0t2dfpyoi" path="res://Assets/IMG_3403 Background Removed.png" id="3_ycag2"]
+[ext_resource type="Texture2D" uid="uid://c28k0fpn07hat" path="res://assets/Bullet.png" id="2_y25gk"]
+[ext_resource type="Texture2D" uid="uid://bnyw0t2dfpyoi" path="res://assets/IMG_3403 Background Removed.png" id="3_ycag2"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ycag2"]
 radius = 5.0
@@ -14,7 +14,7 @@ script = ExtResource("1_oduel")
 shape = SubResource("CircleShape2D_ycag2")
 
 [node name="Bullet2" type="Sprite2D" parent="."]
-texture = ExtResource("2_oduel")
+texture = ExtResource("2_y25gk")
 
 [node name="Img3403BackgroundRemoved" type="Sprite2D" parent="."]
 visible = false
