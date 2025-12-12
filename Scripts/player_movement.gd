@@ -74,6 +74,7 @@ func play_idle_animation(direction):
 	elif direction.y < 0:
 		$AnimatedSprite2D.play("idle_up")
 
+<<<<<<< Updated upstream
 # --------------------
 # COLLISION WITH ENEMY
 # --------------------
@@ -81,3 +82,27 @@ func _on_hitbox_body_entered(body: Node) -> void:
 	if body.is_in_group("enemy"):
 		print("Collided with Enemy!")
 		healthbar.health -= 10
+=======
+func play_shoot_animation(direction):
+	if direction.x > 0:
+		$AnimatedSprite2D.play("shoot_right") 
+	elif direction.x < 0:
+		$AnimatedSprite2D.play("shoot_left")
+	elif direction.y > 0:
+		$AnimatedSprite2D.play("shoot_down")
+	elif direction.y < 0:
+		$AnimatedSprite2D.play("shoot_up")
+
+
+func _on_interactions_body_exited(body: Node2D) -> void:
+	pass # Replace with function body.
+
+func take_damage(amount):
+	
+	health = max(0, health - amount)  # Oppdater health
+	healthbar._set_health(health)     # Oppdater UI   
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("enemy"):
+		take_damage(10)
+>>>>>>> Stashed changes
