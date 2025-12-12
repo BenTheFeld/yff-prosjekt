@@ -3,17 +3,23 @@ extends CharacterBody2D
 var max_speed = 100
 var last_direction := Vector2(1, 0)
 var number = 0
+var health = 0
 
 @onready var bullet = preload("res://Scenes/bullet.tscn")
-
+@onready var healthbar = $HealthBar
 # --- Shooting cooldown ---
 var can_shoot := true
 var shoot_cooldown := 1   # seconds between shots
 
+	
 
+func _ready():
+	health = 100
+	healthbar.init_health(health)
+	
 func shoot():
 	var bullet_temp = bullet.instantiate()
-
+	
 	# Spawn bullet at player position (you can add an offset later)
 	bullet_temp.position = position
 
@@ -58,7 +64,6 @@ func _physics_process(delta):
 	else: 
 		play_idle_animation(last_direction)
 
-
 func play_walk_animation(direction):
 	if direction.x > 0:
 		$AnimatedSprite2D.play("walk_right")
@@ -73,7 +78,6 @@ func play_walk_animation(direction):
 		$AnimatedSprite2D.play("walk_up")
 		number = 4
 
-
 func play_idle_animation(direction):
 	if direction.x > 0:
 		$AnimatedSprite2D.play("idle_right")
@@ -83,7 +87,6 @@ func play_idle_animation(direction):
 		$AnimatedSprite2D.play("idle_down")
 	elif direction.y < 0:
 		$AnimatedSprite2D.play("idle_up")
-
 
 func play_shoot_animation(direction):
 	if direction.x > 0:
@@ -98,3 +101,10 @@ func play_shoot_animation(direction):
 
 func _on_interactions_body_exited(body: Node2D) -> void:
 	pass # Replace with function body.
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("enemy"):
+		print("Collided")
+		health = health - 10
+		healthbar.value = health  # ← Add this line
