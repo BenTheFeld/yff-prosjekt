@@ -1,9 +1,18 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [gd_scene load_steps=30 format=3 uid="uid://psiyjtlb6m1h"]
 
 [ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://Scripts/player_movement.gd" id="1_ia0jx"]
 [ext_resource type="Texture2D" uid="uid://cjd4jcun5qlse" path="res://assets/spritesheet player idle  (1).png" id="2_p2hcr"]
 [ext_resource type="Texture2D" uid="uid://di8cj32brk2jl" path="res://assets/spritesheet player run .png" id="3_vnxuf"]
+=======
+[gd_scene load_steps=24 format=3 uid="uid://dt6ey353j0skc"]
+
+[ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://Scripts/player_movement.gd" id="1_ia0jx"]
+[ext_resource type="Script" path="res://Scripts/interactions.gd" id="3_ftv6u"]
+[ext_resource type="Texture2D" uid="uid://ct3oo2r5sji6b" path="res://assets/spritesheet player run  2.png" id="3_vnxuf"]
+[ext_resource type="Texture2D" uid="uid://4horlv6bfena" path="res://assets/spritesheet player idle .png" id="3_xvubo"]
+>>>>>>> Stashed changes
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fvng0"]
 atlas = ExtResource("2_p2hcr")
@@ -41,6 +50,7 @@ region = Rect2(32, 72, 32, 36)
 atlas = ExtResource("2_p2hcr")
 region = Rect2(64, 72, 32, 36)
 
+<<<<<<< Updated upstream
 [sub_resource type="AtlasTexture" id="AtlasTexture_rsegk"]
 atlas = ExtResource("2_p2hcr")
 =======
@@ -98,6 +108,55 @@ region = Rect2(32, 108, 32, 36)
 [sub_resource type="AtlasTexture" id="AtlasTexture_arqby"]
 atlas = ExtResource("3_xvubo")
 region = Rect2(64, 108, 32, 36)
+=======
+[sub_resource type="AtlasTexture" id="AtlasTexture_fvng0"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(0, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lmof0"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(32, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7hu37"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(64, 0, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qwr32"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(0, 36, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vv2bf"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(32, 36, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wujmg"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(64, 36, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_asmj6"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(0, 72, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yadtw"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(64, 72, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t6sm2"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(32, 72, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rsegk"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(64, 108, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1jb4y"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(32, 108, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_arqby"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(0, 108, 32, 36)
+>>>>>>> Stashed changes
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_n5482"]
 atlas = ExtResource("3_vnxuf")
@@ -256,6 +315,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< Updated upstream
 "texture": SubResource("AtlasTexture_n5482")
 }, {
 "duration": 1.0,
@@ -263,6 +323,18 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_uoreg")
+=======
+"texture": SubResource("AtlasTexture_fvng0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lmof0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fvng0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7hu37")
+>>>>>>> Stashed changes
 }],
 "loop": true,
 "name": &"walk_down",
@@ -270,6 +342,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< Updated upstream
 "texture": SubResource("AtlasTexture_xef3k")
 }, {
 "duration": 1.0,
@@ -277,6 +350,18 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_sdtd4")
+=======
+"texture": SubResource("AtlasTexture_qwr32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vv2bf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qwr32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wujmg")
+>>>>>>> Stashed changes
 }],
 "loop": true,
 "name": &"walk_left",
@@ -284,6 +369,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< Updated upstream
 "texture": SubResource("AtlasTexture_ydewe")
 }, {
 "duration": 1.0,
@@ -297,6 +383,18 @@ animations = [{
 "duration": 1.0,
 >>>>>>> Stashed changes
 "texture": SubResource("AtlasTexture_wreom")
+=======
+"texture": SubResource("AtlasTexture_asmj6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yadtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yadtw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t6sm2")
+>>>>>>> Stashed changes
 }],
 "loop": true,
 "name": &"walk_right",
@@ -304,6 +402,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+<<<<<<< Updated upstream
 "texture": SubResource("AtlasTexture_b6np7")
 }, {
 "duration": 1.0,
@@ -311,6 +410,18 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_5ychd")
+=======
+"texture": SubResource("AtlasTexture_rsegk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1jb4y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rsegk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_arqby")
+>>>>>>> Stashed changes
 }],
 "loop": true,
 "name": &"walk_up",
@@ -328,6 +439,7 @@ script = ExtResource("1_ia0jx")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_loyou")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 animation = &"walk_down"
 frame = 1
 frame_progress = 0.17411143
@@ -335,6 +447,9 @@ frame_progress = 0.17411143
 animation = &"walk_left"
 frame = 2
 frame_progress = 0.5123613
+>>>>>>> Stashed changes
+=======
+animation = &"walk_down"
 >>>>>>> Stashed changes
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

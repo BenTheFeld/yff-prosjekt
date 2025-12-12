@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream:assets/halloween_10.2022/spritesheet player run .png.import
 uid="uid://dxp6r55hucyx0"
 path="res://.godot/imported/spritesheet player run .png-50082ae0e4b3aacfb4e683b235b4581a.ctex"
+=======
+uid="uid://blutu2qcnmrt7"
+path="res://.godot/imported/Jacko.png-e2a6bff35275ba22597552273a0e5c4f.ctex"
+>>>>>>> Stashed changes:Assets/halloween_10.2022/bonus_tyler_warren/Jacko/Faces/Individual/Jacko.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< Updated upstream:assets/halloween_10.2022/spritesheet player run .png.import
 source_file="res://assets/halloween_10.2022/spritesheet player run .png"
 dest_files=["res://.godot/imported/spritesheet player run .png-50082ae0e4b3aacfb4e683b235b4581a.ctex"]
+=======
+source_file="res://assets/halloween_10.2022/bonus_tyler_warren/Jacko/Faces/Individual/Jacko.png"
+dest_files=["res://.godot/imported/Jacko.png-e2a6bff35275ba22597552273a0e5c4f.ctex"]
+>>>>>>> Stashed changes:Assets/halloween_10.2022/bonus_tyler_warren/Jacko/Faces/Individual/Jacko.png.import
 
 [params]
 

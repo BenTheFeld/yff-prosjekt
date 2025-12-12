@@ -2,16 +2,26 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream:assets/spritesheet player run .png.import
 uid="uid://cnvmhdync48n3"
 path="res://.godot/imported/spritesheet player run .png-87c693d3e80df9bdb11b98a78ec3e8d4.ctex"
+=======
+uid="uid://p60l6i8xp6b5"
+path="res://.godot/imported/Chests.png-a5f1a4ebf2fa5a09fb4c42716e8e11b4.ctex"
+>>>>>>> Stashed changes:Assets/Animated Chests/Chests.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<< Updated upstream:assets/spritesheet player run .png.import
 source_file="res://assets/spritesheet player run .png"
 dest_files=["res://.godot/imported/spritesheet player run .png-87c693d3e80df9bdb11b98a78ec3e8d4.ctex"]
+=======
+source_file="res://assets/Animated Chests/Chests.png"
+dest_files=["res://.godot/imported/Chests.png-a5f1a4ebf2fa5a09fb4c42716e8e11b4.ctex"]
+>>>>>>> Stashed changes:Assets/Animated Chests/Chests.png.import
 
 [params]
 
