@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5nlwa4wssui"
-path="res://.godot/imported/hallowicons_3.png-98114671d672b2d8b4620a6fedda4e5b.ctex"
+path="res://.godot/imported/hallowicons_3.png-f674dca0306632480dda653ed6abaf93.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/hallowicons_3.png"
-dest_files=["res://.godot/imported/hallowicons_3.png-98114671d672b2d8b4620a6fedda4e5b.ctex"]
+source_file="res://assets/halloween_10.2022/hallowicons_3.png"
+dest_files=["res://.godot/imported/hallowicons_3.png-f674dca0306632480dda653ed6abaf93.ctex"]
 
 [params]
 

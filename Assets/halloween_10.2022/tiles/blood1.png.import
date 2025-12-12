@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyd2j3v64n2ic"
-path="res://.godot/imported/blood1.png-228d7987d06375d3f4ba81af2b3e0f91.ctex"
+path="res://.godot/imported/blood1.png-1d0df80ee18e4ba03b569ed4346dfe6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/tiles/blood1.png"
-dest_files=["res://.godot/imported/blood1.png-228d7987d06375d3f4ba81af2b3e0f91.ctex"]
+source_file="res://assets/halloween_10.2022/tiles/blood1.png"
+dest_files=["res://.godot/imported/blood1.png-1d0df80ee18e4ba03b569ed4346dfe6c.ctex"]
 
 [params]
 

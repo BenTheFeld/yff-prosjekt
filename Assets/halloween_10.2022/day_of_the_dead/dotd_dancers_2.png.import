@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvstagbhqkyb"
-path="res://.godot/imported/dotd_dancers_2.png-47824fe554f40b4b8e5651551675f03d.ctex"
+path="res://.godot/imported/dotd_dancers_2.png-207cfc0bc1c74a27d7c77fb6ff4eed63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/day_of_the_dead/dotd_dancers_2.png"
-dest_files=["res://.godot/imported/dotd_dancers_2.png-47824fe554f40b4b8e5651551675f03d.ctex"]
+source_file="res://assets/halloween_10.2022/day_of_the_dead/dotd_dancers_2.png"
+dest_files=["res://.godot/imported/dotd_dancers_2.png-207cfc0bc1c74a27d7c77fb6ff4eed63.ctex"]
 
 [params]
 

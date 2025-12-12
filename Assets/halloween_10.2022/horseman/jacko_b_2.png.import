@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doumsldmorna2"
-path="res://.godot/imported/jacko_b_2.png-e02a7a0fc0072cd958b2768f97759335.ctex"
+path="res://.godot/imported/jacko_b_2.png-11d1b6a7e875d40715f2a9ab7c1ef971.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/horseman/jacko_b_2.png"
-dest_files=["res://.godot/imported/jacko_b_2.png-e02a7a0fc0072cd958b2768f97759335.ctex"]
+source_file="res://assets/halloween_10.2022/horseman/jacko_b_2.png"
+dest_files=["res://.godot/imported/jacko_b_2.png-11d1b6a7e875d40715f2a9ab7c1ef971.ctex"]
 
 [params]
 

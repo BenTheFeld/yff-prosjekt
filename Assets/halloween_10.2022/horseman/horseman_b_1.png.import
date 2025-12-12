@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3nsr56jqop68"
-path="res://.godot/imported/horseman_b_1.png-3073a47c81210d39f45cee6468d2337e.ctex"
+path="res://.godot/imported/horseman_b_1.png-08d56bb82cde6f767c006671b9ab358f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/horseman/horseman_b_1.png"
-dest_files=["res://.godot/imported/horseman_b_1.png-3073a47c81210d39f45cee6468d2337e.ctex"]
+source_file="res://assets/halloween_10.2022/horseman/horseman_b_1.png"
+dest_files=["res://.godot/imported/horseman_b_1.png-08d56bb82cde6f767c006671b9ab358f.ctex"]
 
 [params]
 

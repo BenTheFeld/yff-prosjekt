@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b3r5hjgep70bh"
-path="res://.godot/imported/dotd_skulls_2.png-e2731ea3d1bf26438501981025cecd58.ctex"
+path="res://.godot/imported/dotd_skulls_2.png-6bb718718b60c3235632591dc2c6b983.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/day_of_the_dead/dotd_skulls_2.png"
-dest_files=["res://.godot/imported/dotd_skulls_2.png-e2731ea3d1bf26438501981025cecd58.ctex"]
+source_file="res://assets/halloween_10.2022/day_of_the_dead/dotd_skulls_2.png"
+dest_files=["res://.godot/imported/dotd_skulls_2.png-6bb718718b60c3235632591dc2c6b983.ctex"]
 
 [params]
 

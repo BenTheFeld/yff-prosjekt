@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk6xdqxi843b"
-path="res://.godot/imported/reaper_blade_1.png-4757a123b53cbd4bfe721ac65b883d82.ctex"
+path="res://.godot/imported/reaper_blade_1.png-6410f89fe500979afaadc76935085bd9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/halloween_10.2022/reaper/reaper_blade_1.png"
-dest_files=["res://.godot/imported/reaper_blade_1.png-4757a123b53cbd4bfe721ac65b883d82.ctex"]
+source_file="res://assets/halloween_10.2022/reaper/reaper_blade_1.png"
+dest_files=["res://.godot/imported/reaper_blade_1.png-6410f89fe500979afaadc76935085bd9.ctex"]
 
 [params]
 
