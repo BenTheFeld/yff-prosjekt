@@ -10,5 +10,5 @@ var direction_y
 var direction_x
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	position.x += speed * direction_x
-	position.y += speed * direction_y
+	position.x += speed * direction_x*delta
+	position.y += speed * direction_y*delta

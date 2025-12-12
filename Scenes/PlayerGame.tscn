@@ -1,7 +1,7 @@
 [gd_scene load_steps=24 format=3 uid="uid://dt6ey353j0skc"]
 
 [ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://Scripts/player_movement.gd" id="1_ia0jx"]
-[ext_resource type="Script" path="res://Scripts/interactions.gd" id="3_ftv6u"]
+[ext_resource type="Script" uid="uid://b7prtav22audc" path="res://Scripts/interactions.gd" id="3_ftv6u"]
 [ext_resource type="Texture2D" uid="uid://ct3oo2r5sji6b" path="res://assets/spritesheet player run  2.png" id="3_vnxuf"]
 [ext_resource type="Texture2D" path="res://assets/spritesheet player idle .png" id="3_xvubo"]
 
@@ -45,13 +45,13 @@ region = Rect2(32, 36, 32, 36)
 atlas = ExtResource("3_vnxuf")
 region = Rect2(64, 36, 32, 36)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_asmj6"]
-atlas = ExtResource("3_vnxuf")
-region = Rect2(0, 72, 32, 36)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_yadtw"]
 atlas = ExtResource("3_vnxuf")
 region = Rect2(64, 72, 32, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_asmj6"]
+atlas = ExtResource("3_vnxuf")
+region = Rect2(0, 72, 32, 36)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t6sm2"]
 atlas = ExtResource("3_vnxuf")
@@ -118,7 +118,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk_down",
-"speed": 15.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -139,10 +139,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_asmj6")
+"texture": SubResource("AtlasTexture_yadtw")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_yadtw")
+"texture": SubResource("AtlasTexture_asmj6")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_yadtw")
@@ -169,7 +169,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk_up",
-"speed": 15.0
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_xx3k8"]
@@ -178,23 +178,23 @@ radius = 6.0
 [sub_resource type="CircleShape2D" id="CircleShape2D_cy6kp"]
 radius = 14.0
 
-[node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
+[node name="CharacterBody2D" type="CharacterBody2D"]
 position = Vector2(0, -18)
 collision_layer = 2
 collision_mask = 15
 script = ExtResource("1_ia0jx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, 1)
 sprite_frames = SubResource("SpriteFrames_loyou")
-animation = &"walk_down"
+animation = &"walk_right"
+frame_progress = 0.27067363
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-visible = false
 position = Vector2(0, 11)
 shape = SubResource("CircleShape2D_xx3k8")
 
 [node name="Interactions" type="Area2D" parent="."]
-visible = false
 collision_layer = 0
 collision_mask = 2
 script = ExtResource("3_ftv6u")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=4 uid="uid://dxk2663jvhk4g"]
 
-[ext_resource type="PackedScene" uid="uid://psiyjtlb6m1h" path="res://scenes/PlayerGame.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://dt6ey353j0skc" path="res://scenes/PlayerGame.tscn" id="1_ebmjs"]
 [ext_resource type="PackedScene" uid="uid://w307dt8gg06k" path="res://scenes/bullet.tscn" id="4_wowpa"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qxrlw"]
@@ -1072,15 +1072,9 @@ shape = SubResource("RectangleShape2D_wrm1d")
 position = Vector2(72, -47.375)
 shape = SubResource("RectangleShape2D_3dryh")
 
-[node name="CharacterBody2D2" parent="." instance=ExtResource("1_ebmjs")]
-light_mask = 2
-visibility_layer = 2
-position = Vector2(0, -69)
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D2"]
-position = Vector2(0, -7)
-zoom = Vector2(4, 4)
-
 [node name="Bullet" parent="." instance=ExtResource("4_wowpa")]
 visible = false
 position = Vector2(0, -69)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_ebmjs")]
+position = Vector2(1, -102)
