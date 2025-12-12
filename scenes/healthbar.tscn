@@ -16,7 +16,7 @@ expand_margin_bottom = 1.0
 shadow_color = Color(0.27204677, 0.2720468, 0.2720468, 0.6)
 shadow_offset = Vector2(0, 1)
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3uge5"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8wl12"]
 bg_color = Color(1, 1, 1, 1)
 
 [node name="HealthBar" type="ProgressBar"]
@@ -38,7 +38,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/background = SubResource("StyleBoxFlat_bq16f")
-theme_override_styles/fill = SubResource("StyleBoxFlat_3uge5")
+theme_override_styles/fill = SubResource("StyleBoxFlat_8wl12")
 value = 80.0
 show_percentage = false
 
