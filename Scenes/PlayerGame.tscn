@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://8yl8hms2ui4y" path="res://Scripts/player_movement.gd" id="1_ia0jx"]
 [ext_resource type="Script" uid="uid://nsdb02prina0" path="res://Scripts/interactions.gd" id="3_ftv6u"]
-[ext_resource type="Texture2D" uid="uid://4horlv6bfena" path="res://Assets/spritesheet player idle .png" id="3_xvubo"]
+[ext_resource type="Texture2D" uid="uid://4horlv6bfena" path="res://assets/spritesheet player idle .png" id="3_xvubo"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ia0jx"]
 atlas = ExtResource("3_xvubo")
@@ -172,8 +172,7 @@ script = ExtResource("1_ia0jx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_loyou")
-animation = &"walk_right"
-frame_progress = 0.1086023
+animation = &"idle_down"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 11)
