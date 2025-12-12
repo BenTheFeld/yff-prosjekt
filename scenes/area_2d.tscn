@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://budj8qorrrcvf"]
+
+[ext_resource type="Script" uid="uid://djuv1hqxfmthn" path="res://Scripts/enemy.gd" id="1_nhxoo"]
+[ext_resource type="PackedScene" uid="uid://byyxue4c2gjg4" path="res://scenes/enemy.tscn" id="2_5ieuq"]
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_nhxoo")
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("2_5ieuq")]
+frame_progress = 0.1468094
+script = null

@@ -1,32 +1,32 @@
 extends ProgressBar
 
-
-@onready var timer = $Timer 
+@onready var timer = $Timer
 @onready var damage_bar = $DamageBar
 
-var health = 0 : set = _set_health 
+const SMOOTH_SPEED := 24.0
 
+var health := 0 : set = _set_health
+var target_health := 0  # used for delayed animation
+
+func _process(delta):
+	if damage_bar.value > value:
+		damage_bar.value = move_toward(damage_bar.value, value, SMOOTH_SPEED * delta)
 
 func _set_health(new_health):
-	var prev_health = health
-	health = min(max_value, new_health)
-	value = health
-	
-	if health <= 0:
-		queue_free()
-		
-	if health < prev_health:
+	health = clamp(new_health, 0, max_value)
+	value = health  # update instantly
+
+	if health < target_health:
 		timer.start()
-	else: 
-		damage_bar.value = health
 
-func init_health(_health):
-	health = _health
-	max_value = health
-	value = health
-	damage_bar.max_value = health 
-	damage_bar.value = health
-	
+func init_health(start_health):
+	health = start_health
+	target_health = start_health
+	max_value = start_health
 
-func _on_timer_timeout() -> void:
-	damage_bar.value = health
+	value = start_health
+	damage_bar.max_value = start_health
+	damage_bar.value = start_health
+
+func _on_timer_timeout():
+	target_health = value

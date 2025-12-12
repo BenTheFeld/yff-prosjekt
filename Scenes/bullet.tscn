@@ -7,15 +7,17 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_ycag2"]
 radius = 5.0
 
-[node name="Area2D" type="Area2D"]
+[node name="Area2D" type="Area2D" groups=["bullet"]]
+collision_layer = 8
+collision_mask = 16
 script = ExtResource("1_oduel")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["bullet"]]
 shape = SubResource("CircleShape2D_ycag2")
 
-[node name="Bullet2" type="Sprite2D" parent="."]
+[node name="Bullet2" type="Sprite2D" parent="." groups=["bullet"]]
 texture = ExtResource("2_y25gk")
 
-[node name="Img3403BackgroundRemoved" type="Sprite2D" parent="."]
+[node name="Img3403BackgroundRemoved" type="Sprite2D" parent="." groups=["bullet"]]
 visible = false
 texture = ExtResource("3_ycag2")

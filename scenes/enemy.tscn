@@ -1,8 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://byyxue4c2gjg4"]
+[gd_scene load_steps=17 format=3 uid="uid://byyxue4c2gjg4"]
 
 [ext_resource type="Texture2D" uid="uid://b55i5grikclvj" path="res://assets/halloween_10.2022/ghost3.png" id="1_md0e3"]
 [ext_resource type="PackedScene" uid="uid://cxlgiy4cffwk3" path="res://scenes/healthbar.tscn" id="2_4ra3w"]
-[ext_resource type="Script" uid="uid://djuv1hqxfmthn" path="res://Scripts/enemy.gd" id="2_5uy6h"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5uy6h"]
 atlas = ExtResource("1_md0e3")
@@ -118,9 +117,10 @@ radius = 40.04997
 sprite_frames = SubResource("SpriteFrames_s1ycm")
 animation = &"down"
 frame_progress = 0.9169324
-script = ExtResource("2_5uy6h")
 
 [node name="Area2D" type="Area2D" parent="." groups=["enemy"]]
+collision_layer = 16
+collision_mask = 8
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 shape = SubResource("CircleShape2D_shcg2")
@@ -131,3 +131,4 @@ offset_left = -36.0
 offset_top = -55.0
 offset_right = 39.0
 offset_bottom = -47.0
+metadata/_edit_use_anchors_ = true

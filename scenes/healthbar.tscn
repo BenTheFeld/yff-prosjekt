@@ -5,7 +5,7 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4me2t"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vii3e"]
-bg_color = Color(0.2562125, 0.68780905, 0.55293864, 1)
+bg_color = Color(0.82204527, 0, 0.13025108, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_bq16f"]
 bg_color = Color(0.20691353, 0.20691356, 0.20691344, 1)
@@ -17,7 +17,7 @@ shadow_color = Color(0.27204677, 0.2720468, 0.2720468, 0.6)
 shadow_offset = Vector2(0, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8wl12"]
-bg_color = Color(1, 1, 1, 1)
+bg_color = Color(1, 0.14509805, 0.043137256, 1)
 
 [node name="HealthBar" type="ProgressBar"]
 z_index = 1
@@ -25,7 +25,7 @@ offset_right = 240.0
 offset_bottom = 4.0
 theme_override_styles/background = SubResource("StyleBoxEmpty_4me2t")
 theme_override_styles/fill = SubResource("StyleBoxFlat_vii3e")
-value = 60.0
+value = 66.88
 show_percentage = false
 script = ExtResource("1_iywrq")
 
@@ -43,7 +43,7 @@ value = 80.0
 show_percentage = false
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.2
+wait_time = 0.884
 one_shot = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
